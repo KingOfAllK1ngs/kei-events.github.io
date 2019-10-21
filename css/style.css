@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+html, body * {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.sec1 {
+	position: relative;
+	background: url('images/1st-slide');
+	height: 100vh;
+	width:100vw;
+}
+
+.wrapper {
+	position: absolute;
+	width: 100%;
+	top:50%;
+	left:50%;
+	margin-right:50%;
+	transform: translate(-50%, -50%);
+	z-index: 90;
+}
+
+.main-text {
+	text-shadow: 0 0 30px black, 30px 0 30px black;
+	max-width: 75vw;
+	margin-right: auto;
+	margin-left: auto;
+	color:white;
+}
+
+.main-text h1 {
+	font-size: 50px;
+}
+
+.main-text p {
+	font-size: 22px;
+	text-shadow: 0 0 15px black, 0 0 15px black;
+}
+
+.text-slicer {
+	background: #fff;
+	width: 12em;
+}
+
+.it-1 {
+	height: 100vh;
+	background: url('../images/cinema-day.jpg') no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
+.it-2 {
+	height: 100vh;
+	background: url('../images/music-day.jpg') no-repeat;
+	background-position:center center;
+	background-size: cover;
+}
